@@ -1,0 +1,34 @@
+
+.big-btn-accord {
+  display: inline-block;
+  width: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+.big-btn-accord li {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+}
+
+.big-btn-accord button {
+  width: inherit;
+  height: inherit;
+}
+
+.big-btn-accord .accordion-panel {
+  display: none;
+  overflow: hidden;
+  padding: 10px;
+  height: 50px;
+}
+
+.big-btn-accord .accordion-panel p {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
